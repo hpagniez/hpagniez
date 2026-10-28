@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">Hugo Pagniez</title>
+  <desc id="desc">.NET Software Engineer, Tech Lead, DevOps and cloud enthusiast, Basel area</desc>
+  <defs>
+    <radialGradient id="glowA" cx="0.82" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.05" cy="1" r="0.55">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <mask id="gridMask"><rect width="1280" height="360" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect width="1280" height="360" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    .drift { animation: drift 9s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.7); } }
+    @keyframes drift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .drift { animation: none; } }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="360" fill="#0a0c12"/>
+    <rect width="1280" height="360" fill="url(#grid)" mask="url(#gridMask)"/>
+    <rect width="1280" height="360" fill="url(#glowA)"/>
+    <rect width="1280" height="360" fill="url(#glowB)"/>
+    <g class="drift">
+      <line x1="930" y1="92" x2="1040" y2="70" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="1040" y1="70" x2="1150" y2="118" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="930" y1="92" x2="1000" y2="178" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="1040" y1="70" x2="1000" y2="178" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="1150" y1="118" x2="1000" y2="178" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="880" y1="196" x2="1000" y2="178" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="1000" y1="178" x2="1110" y2="230" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="1150" y1="118" x2="1110" y2="230" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="880" y1="196" x2="960" y2="286" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="1000" y1="178" x2="960" y2="286" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="960" y1="286" x2="1070" y2="300" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="1110" y1="230" x2="1070" y2="300" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="1110" y1="230" x2="1190" y2="262" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="880" y1="196" x2="840" y2="290" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="960" y1="286" x2="840" y2="290" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="930" y1="92" x2="880" y2="196" stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <circle cx="930" cy="92" r="5" fill="#c7d2fe"/>
+      <circle cx="1040" cy="70" r="4" fill="#c7d2fe"/>
+      <circle cx="1150" cy="118" r="6" fill="#c7d2fe"/>
+      <circle cx="880" cy="196" r="4" fill="#c7d2fe"/>
+      <circle cx="1000" cy="178" r="8" fill="#34d399" class="pulse"/>
+      <circle cx="1110" cy="230" r="5" fill="#c7d2fe"/>
+      <circle cx="960" cy="286" r="5" fill="#c7d2fe"/>
+      <circle cx="1070" cy="300" r="4" fill="#c7d2fe"/>
+      <circle cx="1190" cy="262" r="4" fill="#c7d2fe"/>
+      <circle cx="840" cy="290" r="3" fill="#c7d2fe"/>
+      <circle cx="1000" cy="178" r="18" fill="none" stroke="#34d399" stroke-opacity="0.35"/>
+    </g>
+    <text x="80" y="104" font-family="'Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="3" fill="#94a3b8">HELLO, I'M</text>
+    <text x="78" y="178" font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-2" fill="url(#name)">Hugo Pagniez</text>
+    <text x="80" y="226" font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="26" font-weight="600" fill="#cbd5e1">.NET Software Engineer · Tech Lead</text>
+    <text x="80" y="260" font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="19" fill="#94a3b8">DevOps &amp; cloud enthusiast · Basel area</text>
+    <g font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" font-weight="600">
+      <rect x="80" y="288" width="196" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+      <text x="178" y="310" text-anchor="middle" fill="#cbd5e1">Tech Lead @ SWISS</text>
+      <rect x="290" y="288" width="176" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+      <circle cx="312" cy="305" r="5" fill="#34d399" class="pulse"/>
+      <text x="326" y="310" fill="#cbd5e1">Building Grace</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="23.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>

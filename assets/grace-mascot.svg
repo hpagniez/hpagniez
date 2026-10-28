@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Grace, the mascot (ADR 0013): a made-up martial artist punching the taped 1947 logbook moth. -->
+  <rect x="6" y="6" width="388" height="288" rx="56" fill="#e4ede6"/>
+  <ellipse cx="140" cy="258" rx="100" ry="7" fill="#151821" opacity="0.12"/>
+
+  <!-- the moth, hit -->
+  <g transform="translate(316 132) rotate(10) scale(0.74) translate(-128 -132)" stroke="#151821" stroke-width="7" stroke-linejoin="round">
+    <g fill="#ece6d8">
+      <path d="M124 104 C100 92 64 80 40 84 C40 112 56 134 80 142 L124 134 Z"/>
+      <path d="M124 136 L82 146 C80 166 94 182 112 186 L126 156 Z"/>
+      <path d="M132 104 C156 92 192 80 216 84 C216 112 200 134 176 142 L132 134 Z"/>
+      <path d="M132 136 L174 146 C176 166 162 182 144 186 L130 156 Z"/>
+      <ellipse cx="108" cy="58" rx="22" ry="7" transform="rotate(40 108 58)"/>
+      <ellipse cx="148" cy="58" rx="22" ry="7" transform="rotate(-40 148 58)"/>
+      <ellipse cx="128" cy="136" rx="13" ry="44"/>
+      <circle cx="128" cy="86" r="18"/>
+    </g>
+    <g fill="#c9bfa8" stroke="none">
+      <circle cx="74" cy="106" r="9"/>
+      <circle cx="182" cy="106" r="9"/>
+    </g>
+    <!-- the logbook tape -->
+    <rect x="148" y="90" width="64" height="20" fill="#d6cbb0" opacity="0.95" stroke-width="5" transform="rotate(-24 180 100)"/>
+    <g fill="#ffffff" stroke-width="4">
+      <circle cx="121" cy="84" r="6"/>
+      <circle cx="136" cy="84" r="6"/>
+    </g>
+    <g fill="#151821" stroke="none">
+      <circle cx="119" cy="85" r="3"/>
+      <circle cx="134" cy="85" r="3"/>
+    </g>
+  </g>
+
+  <!-- the strike, the same green as the belt -->
+  <polygon transform="translate(-18 0)" points="284,98 290.5,113.1 306.8,114.6 294.5,125.4 298.1,141.4 284,133 269.9,141.4 273.5,125.4 261.2,114.6 277.5,113.1" fill="#3fcf6e" stroke="#151821" stroke-width="5" stroke-linejoin="round"/>
+
+  <g transform="translate(-22 0)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ponytail, behind the head -->
+    <path d="M168 70 Q140 60 122 76 Q138 76 146 84 Q130 90 124 102 Q150 94 170 84 Z" fill="#4a3428" stroke="#151821" stroke-width="5"/>
+
+    <!-- far arm, pulled back to the hip -->
+    <polyline points="166,132 134,152 152,170" fill="none" stroke="#151821" stroke-width="30"/>
+    <polyline points="166,132 134,152 152,170" fill="none" stroke="#f9f7f2" stroke-width="20"/>
+
+    <!-- legs: back leg straight, front knee bent -->
+    <polyline points="146,182 96,238" fill="none" stroke="#151821" stroke-width="36"/>
+    <polyline points="146,182 96,238" fill="none" stroke="#f9f7f2" stroke-width="26"/>
+    <polyline points="168,184 212,210 214,236" fill="none" stroke="#151821" stroke-width="36"/>
+    <polyline points="168,184 212,210 214,236" fill="none" stroke="#f9f7f2" stroke-width="26"/>
+    <ellipse cx="88" cy="251" rx="18" ry="7" fill="#e0a77c" stroke="#151821" stroke-width="5"/>
+    <ellipse cx="224" cy="251" rx="20" ry="7" fill="#e0a77c" stroke="#151821" stroke-width="5"/>
+
+    <!-- neck, gi jacket, belt -->
+    <rect x="180" y="102" width="16" height="18" fill="#e0a77c" stroke="#151821" stroke-width="5"/>
+    <path d="M152 116 Q174 108 196 116 L200 176 Q168 184 136 180 Z" fill="#f9f7f2" stroke="#151821" stroke-width="5"/>
+    <path d="M136 180 L202 176 L206 196 Q170 202 132 198 Z" fill="#f9f7f2" stroke="#151821" stroke-width="5"/>
+    <path d="M192 116 L166 170" fill="none" stroke="#151821" stroke-width="4"/>
+    <path d="M134 170 L203 166 L204 179 L135 183 Z" fill="#3fcf6e" stroke="#151821" stroke-width="5"/>
+    <path d="M204 172 L224 192 L215 198 L198 177 Z" fill="#3fcf6e" stroke="#151821" stroke-width="4"/>
+    <path d="M201 175 L208 200 L198 201 L195 178 Z" fill="#3fcf6e" stroke="#151821" stroke-width="4"/>
+    <rect x="195" y="166" width="14" height="14" rx="3" fill="#3fcf6e" stroke="#151821" stroke-width="4"/>
+
+    <!-- head: hair tied back -->
+    <circle cx="194" cy="86" r="28" fill="#e0a77c" stroke="#151821" stroke-width="5"/>
+    <path d="M170 104 Q156 80 172 62 Q194 50 214 64 Q206 68 198 68 Q186 72 180 86 Q178 98 182 108 Z" fill="#4a3428" stroke="#151821" stroke-width="5"/>
+    <circle cx="168" cy="74" r="5" fill="#3fcf6e" stroke="#151821" stroke-width="3"/>
+    <circle cx="186" cy="90" r="6" fill="#e0a77c" stroke="#151821" stroke-width="4"/>
+    <path d="M202 74 L216 79" fill="none" stroke="#151821" stroke-width="4"/>
+    <ellipse cx="209" cy="84" rx="3" ry="4" fill="#151821"/>
+    <path d="M209 100 L216 98" fill="none" stroke="#151821" stroke-width="3"/>
+
+    <!-- front arm, punching -->
+    <polyline points="190,128 246,124" fill="none" stroke="#151821" stroke-width="30"/>
+    <polyline points="190,128 246,124" fill="none" stroke="#f9f7f2" stroke-width="20"/>
+    <circle cx="258" cy="124" r="13" fill="#e0a77c" stroke="#151821" stroke-width="5"/>
+    <path d="M266 117 L266 131" fill="none" stroke="#151821" stroke-width="3"/>
+  </g>
+</svg>
