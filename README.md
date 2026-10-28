@@ -1,7 +1,7 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" alt="Hugo Pagniez: .NET Software Engineer, Tech Lead, DevOps and cloud enthusiast, Basel area" width="100%">
+    <img src="assets/banner-light.svg" alt="Hugo Pagniez: .NET Software Engineer, Tech Lead, DevOps, cloud and agentic AI enthusiast, Basel area" width="100%">
   </picture>
 </p>
 
@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Discord-tuskk-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord: tuskk">
 </p>
 
-I'm a .NET software engineer at [Swiss International Air Lines](https://www.swiss.com) in Basel, now Tech Lead on UDH. I build backend services, care about how they ship and run in the cloud, and write open-source developer tools in my spare time.
+I'm a .NET software engineer at [Swiss International Air Lines](https://www.swiss.com) in Basel, now Tech Lead on UDH. I build backend services and care about how they ship and run in the cloud. Outside work I write open-source developer tools and dig into AI-assisted, agentic development workflows.
 
 ## Now building
 
@@ -87,6 +87,38 @@ As a trainee I built a release management tool from scratch (API and web UI) on 
         <img src="assets/stack-deliver-light.svg" alt="Azure DevOps, GitHub Actions, Jira, Grafana, Prometheus">
       </picture>
     </td>
+  </tr>
+  <tr>
+    <td><b>AI</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/stack-ai-dark.svg">
+        <img src="assets/stack-ai-light.svg" alt="GitHub Copilot, OpenAI Codex, Cursor, Claude">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+## Agentic workflow
+
+I work with coding agents every day, and tune them with skills and plugins. The ones I keep installed:
+
+<table>
+  <tr>
+    <td><a href="https://github.com/obra/superpowers"><b>Superpowers</b></a><br><sub>Brainstorm, plan, test-first, subagent-driven development</sub></td>
+    <td><a href="https://github.com/multica-ai/andrej-karpathy-skills"><b>Karpathy Skills</b></a><br><sub>Coding guidelines drawn from Andrej Karpathy's notes</sub></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/DietrichGebert/ponytail"><b>Ponytail</b></a><br><sub>The smallest change that fully solves the task</sub></td>
+    <td><a href="https://github.com/JuliusBrussee/caveman"><b>Caveman</b></a><br><sub>Terse answers, fewer tokens</sub></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/thedotmack/claude-mem"><b>claude-mem</b></a><br><sub>Memory that carries across sessions</sub></td>
+    <td><a href="https://github.com/pbakaus/impeccable"><b>Impeccable</b></a><br><sub>Design vocabulary to polish and critique UI</sub></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"><b>UI UX Pro Max</b></a><br><sub>Design system and UX guidance for interfaces</sub></td>
+    <td><a href="https://github.com/Leonxlnx/taste-skill"><b>Taste</b></a><br><sub>Art direction and visual taste for front ends</sub></td>
   </tr>
 </table>
 

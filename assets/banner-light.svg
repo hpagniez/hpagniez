@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="title desc">
   <title id="title">Hugo Pagniez</title>
-  <desc id="desc">.NET Software Engineer, Tech Lead, DevOps and cloud enthusiast, Basel area</desc>
+  <desc id="desc">.NET Software Engineer, Tech Lead, DevOps, cloud and agentic AI enthusiast, Basel area</desc>
   <defs>
     <radialGradient id="glowA" cx="0.82" cy="0.1" r="0.6">
       <stop offset="0" stop-color="#818cf8" stop-opacity="0.3"/>
@@ -68,7 +68,7 @@
     <text x="80" y="104" font-family="'Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="3" fill="#475569">HELLO, I'M</text>
     <text x="78" y="178" font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-2" fill="url(#name)">Hugo Pagniez</text>
     <text x="80" y="226" font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="26" font-weight="600" fill="#334155">.NET Software Engineer · Tech Lead</text>
-    <text x="80" y="260" font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="19" fill="#475569">DevOps &amp; cloud enthusiast · Basel area</text>
+    <text x="80" y="260" font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="19" fill="#475569">DevOps, cloud &amp; agentic AI enthusiast · Basel area</text>
     <g font-family="'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" font-weight="600">
       <rect x="80" y="288" width="196" height="34" rx="17" fill="#ffffff" fill-opacity="0.85" stroke="#0f172a" stroke-opacity="0.1"/>
       <text x="178" y="310" text-anchor="middle" fill="#334155">Tech Lead @ SWISS</text>
