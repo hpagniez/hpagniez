@@ -56,8 +56,8 @@ As a trainee I built a release management tool from scratch (API and web UI) on 
     <td><b>Build</b></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cs%2Cdotnet%2Cjava%2Cspring%2Cts%2Celectron%2Csolidjs&theme=dark">
-        <img src="https://skillicons.dev/icons?i=cs%2Cdotnet%2Cjava%2Cspring%2Cts%2Celectron%2Csolidjs&theme=light" alt="C#, .NET, Java, Spring, TypeScript, Electron, SolidJS">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/stack-build-dark.svg">
+        <img src="assets/stack-build-light.svg" alt="C#, .NET, Java, Spring, TypeScript, Electron, SolidJS">
       </picture>
     </td>
   </tr>
@@ -65,17 +65,26 @@ As a trainee I built a release management tool from scratch (API and web UI) on 
     <td><b>Data</b></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres%2Credis%2Cmongodb%2Ckafka%2Crabbitmq%2Celasticsearch&theme=dark">
-        <img src="https://skillicons.dev/icons?i=postgres%2Credis%2Cmongodb%2Ckafka%2Crabbitmq%2Celasticsearch&theme=light" alt="PostgreSQL, Redis, MongoDB, Kafka, RabbitMQ, Elasticsearch">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/stack-data-dark.svg">
+        <img src="assets/stack-data-light.svg" alt="SQL Server, PostgreSQL, Redis, MongoDB, Kafka, RabbitMQ, Elasticsearch">
       </picture>
     </td>
   </tr>
   <tr>
-    <td><b>Ship</b></td>
+    <td><b>Cloud</b></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=azure%2Caws%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgrafana%2Cprometheus&theme=dark">
-        <img src="https://skillicons.dev/icons?i=azure%2Caws%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgrafana%2Cprometheus&theme=light" alt="Azure, AWS, Docker, Terraform, Ansible, GitHub Actions, Grafana, Prometheus">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/stack-cloud-dark.svg">
+        <img src="assets/stack-cloud-light.svg" alt="Azure, AWS, Docker, Kubernetes, Terraform, Ansible">
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Deliver</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/stack-deliver-dark.svg">
+        <img src="assets/stack-deliver-light.svg" alt="Azure DevOps, GitHub Actions, Jira, Grafana, Prometheus">
       </picture>
     </td>
   </tr>
